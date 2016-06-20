@@ -1,0 +1,11 @@
+{
+   "autoload": {
+   	  "classmap": ["src/App/Mvc/models"],
+      "psr-4": {
+         "App\\": ["src/App", "src/App/Mvc/"]
+      }
+   },
+   "require": {
+      "illuminate/database": "^5.2"
+   }
+}
